@@ -24,5 +24,19 @@ cd .luarocks/bin
 ./luarocks-5.2 install fakeredis
 cd ../..
 ./launch.sh 
+
  بعد از زدن این دستور از شما شماره و کد تایید میخواد
+ 
 Then Enter Your Phone number And Confirmation Code
+
+Open ./data/config.lua and add your ID to the "sudo_users" section in the following format:
+
+  sudo_users = {
+    169890304,
+    YourID
+  }
+  بعد از ان دوباره ربات خود رو لانچ کنید.
+  #autolaunch
+  cd Self-Bot
+  screen ./launch.sh
+  
